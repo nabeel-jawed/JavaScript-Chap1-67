@@ -1,0 +1,19 @@
+.hidden{
+    visibility: hidden;
+}
+h1{
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+.bigImage{
+    width: 450px;
+    height: 300px;
+
+}

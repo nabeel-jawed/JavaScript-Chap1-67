@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment chapter 1-67</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<body>
+
+    <h1>Chapter 1 to 67</h1>
+
+
+    <h1>Chapter 43-48</h1>
+
+    <a href="#" onclick="box()">Alert On Click</a>
+
+    <br>
+    <br>
+    <img width="200px" src="mbl1.jpg" alt="img" onclick="msg()">
+    <img width="200px" src="mbl2.jpg" alt="img" onclick="msg()">
+    <br>
+
+    <table id="myTable">
+        <tr id="aa">
+            <td>0</td>
+            <td>Jhone</td>
+            <td>10</td>
+            <td><Button onclick="deleter()">Delete</Button></td>
+        </tr>
+        <tr id="aa">
+            <td>1</td>
+            <td>Jhone</td>
+            <td>10</td>
+            <td><Button onclick="deleter()">Delete</Button></td>
+        </tr>
+        <tr id="aa">
+            <td>2</td>
+            <td>Jhone</td>
+            <td>3</td>
+            <td><Button onclick="deleter()">Delete</Button></td>
+        </tr>
+        <tr id="aa">
+            <td>3</td>
+            <td>Jhone</td>
+            <td>1</td>
+            <td><Button onclick="deleter()">Delete</Button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Jhone</td>
+            <td>9</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Jhone</td>
+            <td>4</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Jhone</td>
+            <td>8</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Jhone</td>
+            <td>7</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Jhone</td>
+            <td>5</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Jhone</td>
+            <td>8</td>
+            <td><Button>Delete</Button></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <img width="300px" id="change" src="mdn1.jpg" alt="img" onmouseover="changeImg()" onmouseout="outImage()">
+    <br>
+
+    <button onclick="decrement()">-</button>
+    <input type="number" id="counter" value="0">
+    <button onclick="increment()">+</button>
+
+    <br>
+    <br>
+
+    <h1> Chapter 49-52</h1>
+
+    <div>
+        <label for="first name">First Name:</label>
+        <input type="text" id="fName">
+    </div>
+    <div>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="lName">
+    </div>
+    <div>
+        <label for="cell">Contact num:</label>
+        <input type="number" id="cell">
+    </div>
+
+    <button onclick="showMessage()" value="submit">Submit</button>
+    <div id="show">
+
+    </div>
+    <br>
+
+
+
+    <P id="text" class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia amet
+        perferendis veritatis laboriosam ad facilis odit saepe ab soluta minus, rerum quaerat fugit autem placeat quas
+        sapiente quae quis.</P>
+    <p id="para">lorem issup dolor <a href="#" onclick="readmore()">read more</a></p>
+
+    <div>
+        <label for="first name">First Name:</label>
+        <input type="text" id="firstName">
+    </div>
+    <div>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="lastName">
+    </div>
+    <div>
+        <label for="cell">Contact num:</label>
+        <input type="number" id="cellPhone">
+    </div>
+
+    <button onclick="updates()" value="submit">Submit</button>
+
+    <table id="table"></table>
+
+    <h1>CHAPTER 52-77</h1>
+
+
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" src="images/others/1.jpg" alt="img">
+    
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" src="images/others/3.jpg" alt="img">
+    
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" src="images/others/4.png   " alt="img">
+    
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" src="images/others/5.jpg" alt="img">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+    <img class="bigImage" id="modalImage" src="" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <h1>CHAPTER 58-67</h1>
+
+
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content"><label for="first-name">First Name</label> <input type="text"
+                id="first-name" /> <label for="last-name">Last Name</label> <input type="text" id="last-name" /> <label
+                for="email">Email</label> <input type="text" id="email" />>
+        </div>
+
+        <div id="main-content" class="content"
+        ><p class="render">First Name : Alex</p
+            ><p class="render" id="lastName">Last Name: Bank</p
+            ><p class="render"> Email : alexbank@example.com</p
+            ><p class="render"> Country : Pakistan </p
+            ><p class="render"> contact : +92 300 1234567</p
+        ></div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>
